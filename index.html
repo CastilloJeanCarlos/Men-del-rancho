@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Menú · El Rancho del Porrón</title>
+<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6efe3;--card:#fffaf0;--ink:#2b2420;--mut:#76665a;--acc:#b4580f;--line:#e3d4bd;--btn:#a8530d;--bt:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#2d2827;--card:#3a3331;--ink:#f7efe4;--mut:#bdb0a2;--acc:#e8923c;--line:#4d4340;--btn:#e8923c;--bt:#1d1815}}
+:root[data-theme="dark"]{--bg:#2d2827;--card:#3a3331;--ink:#f7efe4;--mut:#bdb0a2;--acc:#e8923c;--line:#4d4340;--btn:#e8923c;--bt:#1d1815}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 60px)}
+*{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{text-align:center;padding:26px 16px 18px;background:var(--btn);color:var(--bt)}
+h1{font:400 clamp(30px,9vw,42px)/1.05 Rye,Georgia,serif;margin:0}
+header p{margin:8px 0 0;font-size:14px}header a{color:inherit}
+nav{position:sticky;top:env(safe-area-inset-top,0px);display:flex;gap:8px;overflow-x:auto;padding:10px 12px;background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav a{flex:none;padding:6px 14px;border-radius:99px;background:var(--card);border:1px solid var(--line);color:var(--ink);text-decoration:none;font-weight:600;font-size:14px}
+main{max-width:640px;margin:0 auto;padding:6px 14px 100px}
+h2{font:400 26px Rye,Georgia,serif;color:var(--acc);margin:26px 0 4px}
+.note{color:var(--mut);font-size:14px;margin:0 0 6px}
+.it{display:flex;gap:12px;justify-content:space-between;align-items:flex-start;padding:12px 0;border-bottom:1px solid var(--line)}
+.it b{display:block}.it small{color:var(--mut);display:block}
+.pr{font-weight:800;white-space:nowrap;color:var(--acc)}
+.ph{width:100%;max-height:190px;object-fit:cover;border-radius:12px;margin-top:8px;display:block}
+.pay{margin-top:28px;padding:14px;border-radius:14px;background:var(--btn);color:var(--bt);text-align:center}
+.in{width:100%;padding:9px;margin:3px 0;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit}
+.ed{padding:12px 0;border-bottom:1px solid var(--line)}.row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.row .in{width:120px}
+.bt{background:var(--btn);color:var(--bt);border:0;border-radius:10px;padding:9px 14px;font:inherit;font-weight:700;cursor:pointer}
+.s{padding:7px 10px;font-size:14px}
+.bar{position:fixed;left:0;right:0;bottom:0;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:var(--card);border-top:1px solid var(--line);display:flex;gap:8px;justify-content:center;flex-wrap:wrap;align-items:center;z-index:9}
+.md{position:fixed;inset:0;background:rgba(0,0,0,.6);display:grid;place-items:center;z-index:20;padding:16px}
+.bx{background:var(--card);border-radius:16px;padding:18px;max-width:340px;width:100%;text-align:center}
+#qr{background:#fff;padding:12px;border-radius:8px;display:inline-block;margin:10px 0}#qr canvas{display:none}#qr img{display:block}
+</style></head><body>
+<div id="app"></div>
+<script type="application/json" id="data">{"p":"14426617 · 0412-1677015 · Provincial","c":[
+{"n":"Entrada","i":[{"n":"Queso frito / Plancha","d":"","p":"4"},{"n":"Tequeños","d":"","p":"6"},{"n":"Tostones con ensalada rayada y salsa rosada","d":"","p":"6"},{"n":"Tostones con queso","d":"","p":"6"},{"n":"Tostones con carne mechada y queso","d":"","p":"7"},{"n":"Tajadas con queso","d":"","p":"4"},{"n":"Arepitas con queso y nata","d":"","p":"5"},{"n":"Arepitas con chicharrón y nata","d":"","p":"6"}]},
+{"n":"Sopa","t":"Sábado y domingo","i":[{"n":"Res","d":"","p":"4.5"},{"n":"Picadillo llanero","d":"","p":"6"}]},
+{"n":"Carnes","i":[{"n":"Hamburguesa del Rancho","d":"150 gr de carne, queso, huevo, tajada, salsa y vegetales al gusto","p":"8"},{"n":"Hamburguesa Americana","d":"150 gr de carne, queso cheddar, vegetales, salsa al gusto","p":"7"},{"n":"Parrilla mixta (1 kg)","d":"Carne, pollo, cochino, chorizo, morcilla, ensalada, queso, tostones y yuca","p":"40"},{"n":"Parrilla mixta (1/2)","d":"Carne, pollo, cochino, chorizo, morcilla, ensalada, queso, tostones y yuca","p":"30"},{"n":"Churrascó de solomo (individual)","d":"250 gr, ensalada, chorizo, morcilla, tostones o yuca y queso","p":"12"}]},
+{"n":"Cerdo","i":[{"n":"Porkbelly","d":"Ensalada, arepa, nata","p":"15"},{"n":"Lomo de cerdo","d":"Ensalada, puré o tostones","p":""},{"n":"Ribs de cerdo","d":"Ensalada, puré o tostones","p":"15"},{"n":"Cachapa con queso y cochino","d":"","p":"10"},{"n":"Cochino frito","d":"Con ensalada, yuca o tostones","p":"10"},{"n":"Sándwich de pernil","d":"","p":"8"}]},
+{"n":"Pollo","i":[{"n":"Churrasco de pollo","d":"Ensalada, tostones o yuca","p":"10"},{"n":"Chupetas de pollo (BBQ)","d":"Ensalada, papas fritas o tostones","p":"7"},{"n":"Chupetas de pollo (BBQ) 1 kg","d":"Ensalada, papas fritas o tostones","p":"20"},{"n":"Chupetas de pollo (BBQ) 1/2 kg","d":"Ensalada, papas fritas o tostones","p":"15"},{"n":"Nugget de pollo (BBQ) con papas fritas","d":"","p":"6"}]},
+{"n":"Pescado","i":[{"n":"Batea de pescado 1 kg","d":"Palometa, bocachico, cachama. Ensalada mixta o coleslaw, arepitas de queso, tostones","p":"30"},{"n":"Bagre frito (individual)","d":"Ensalada, tostones","p":"8"},{"n":"Bocachico frito (individual)","d":"Ensalada, tostones","p":""}]},
+{"n":"Especialidades","i":[{"n":"Doña Porrón","d":"Cochino frito, caraota, ensalada, tajadas con queso, papas fritas, arepa frita con queso","p":"10"},{"n":"Cachapa con queso de mano","d":"","p":"8"},{"n":"Patacón de carne mechada","d":"Ensalada y salsa al gusto","p":"10"},{"n":"Club House de pollo / carne mechada","d":"","p":"12"},{"n":"Pabellón criollo","d":"Huevo frito, carne mechada, arroz, caraota, tajadas con queso","p":"8"},{"n":"Pastel de plátano dulce","d":"Tajadas fritas, carne mechada, queso gratinado","p":"10"}]},
+{"n":"Bebidas","i":[{"n":"Agua","d":"","p":""},{"n":"Jugos naturales","d":"","p":""},{"n":"Nestea","d":"","p":""},{"n":"Refresco botella","d":"","p":"1.5"},{"n":"Refresco de litro","d":"","p":"2.5"},{"n":"Cervezas","d":"","p":""},{"n":"Malta","d":"","p":"1"},{"n":"Soda","d":"","p":""}]},
+{"n":"Adicionales","i":[{"n":"Natilla","d":"","p":"3"},{"n":"Queso frito / Plancha","d":"","p":""},{"n":"Chorizo","d":"","p":"3"},{"n":"Morcilla","d":"","p":"2"},{"n":"Papas fritas","d":"","p":"4"},{"n":"Ensalada","d":"","p":""},{"n":"Caraotas","d":"","p":""},{"n":"Arepas","d":"","p":""}]},
+{"n":"Postres","i":[{"n":"Dulces tradicionales","d":"","p":""}]}]}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+const $=s=>document.querySelector(s),A=$('#app'),S=JSON.parse($('#data').textContent);
+let ed=false,qr=false,own=false,art=null,msg='';
+const e=t=>String(t==null?'':t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const pr=p=>p===''?'Consultar':e(p)+'$';
+function R(){
+ let h='<header><h1>El Rancho del Porrón</h1><p>Comida &amp; Music · <a href="https://www.instagram.com/elranchodelporron" target="_blank" rel="noopener">@elranchodelporron</a></p></header><nav>'+S.c.map((c,i)=>`<a href="#c${i}">${e(c.n)}</a>`).join('')+'</nav><main>';
+ S.c.forEach((c,ci)=>{
+  h+=`<section id="c${ci}"><h2>${ed?`<input class="in" data-f="cn" data-c="${ci}" value="${e(c.n)}">`:e(c.n)}</h2>`+(c.t?`<p class="note">${e(c.t)}</p>`:'');
+  c.i.forEach((x,ii)=>{const k=`data-c="${ci}" data-i="${ii}"`;
+   h+=ed?`<div class="ed"><input class="in" data-f="n" ${k} value="${e(x.n)}" placeholder="Nombre"><input class="in" data-f="d" ${k} value="${e(x.d)}" placeholder="Descripción"><div class="row"><input class="in" data-f="p" ${k} inputmode="decimal" value="${e(x.p)}" placeholder="Precio $"><label class="bt s">Foto<input type="file" accept="image/*" hidden data-a="img" ${k}></label>${x.g?`<button class="bt s" data-a="rg" ${k}>Quitar foto</button>`:''}<button class="bt s" data-a="del" ${k}>Borrar</button></div>${x.g?`<img class="ph" src="${x.g}" alt="">`:''}</div>`
+   :`<div class="it"><div><b>${e(x.n)}</b>${x.d?`<small>${e(x.d)}</small>`:''}${x.g?`<img class="ph" loading="lazy" src="${x.g}" alt="${e(x.n)}">`:''}</div><span class="pr">${pr(x.p)}</span></div>`});
+  if(ed)h+=`<p><button class="bt s" data-a="add" data-c="${ci}">+ Plato</button></p>`;
+  h+='</section>'});
+ h+=`<div class="pay"><b>Pago móvil</b><br>${e(S.p)}</div></main>`;
+ if(own)h+=`<div class="bar">${msg?`<span class="note">${e(msg)}</span>`:''}<button class="bt" data-a="ed">${ed?'Terminar':'Editar menú'}</button>${ed?'<button class="bt" data-a="sv">Descargar archivo</button>':''}<button class="bt" data-a="qr">Código QR</button></div>`;
+ if(qr)h+=`<div class="md"><div class="bx"><h3>Código QR del menú</h3><input class="in" id="u" value="${e(location.origin+location.pathname)}"><div id="qr"></div><p class="note">Si el enlace de arriba no es el público de tu menú, pégalo aquí y el QR se actualiza.</p><button class="bt" data-a="qx">Cerrar</button></div></div>`;
+ A.innerHTML=h;if(qr)mk($('#u').value)}
+function mk(v){const q=$('#qr');q.innerHTML='';if(window.QRCode)new QRCode(q,{text:v,width:240,height:240})}
+function ph(f,ci,ii){const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{const k=Math.min(1,640/im.width),cv=document.createElement('canvas');cv.width=im.width*k;cv.height=im.height*k;cv.getContext('2d').drawImage(im,0,0,cv.width,cv.height);S.c[ci].i[ii].g=cv.toDataURL('image/jpeg',.72);R()};im.src=r.result};r.readAsDataURL(f)}
+async function sv(){
+  const c=document.documentElement.cloneNode(true);
+ c.querySelector('#app').innerHTML='';
+ c.querySelector('#data').textContent=JSON.stringify(S).replace(/</g,'\\u003c');
+ const a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['<!doctype html>'+c.outerHTML],{type:'text/html'}));a.download='index.html';a.click();msg='Listo: sube el archivo descargado a tu sitio para publicar los cambios';R()}
+A.onclick=ev=>{const b=ev.target.closest('[data-a]');if(!b||b.tagName==='INPUT')return;const a=b.dataset.a,c=b.dataset.c,i=b.dataset.i;
+ if(a==='ed')ed=!ed;else if(a==='qr')qr=true;else if(a==='qx')qr=false;else if(a==='add')S.c[c].i.push({n:'Nuevo plato',d:'',p:''});else if(a==='del')S.c[c].i.splice(i,1);else if(a==='rg')S.c[c].i[i].g='';else if(a==='sv')return sv();
+ R()};
+A.onchange=ev=>{const t=ev.target;if(t.dataset.a==='img'&&t.files[0])ph(t.files[0],+t.dataset.c,+t.dataset.i)};
+A.oninput=ev=>{const t=ev.target,f=t.dataset.f;if(f==='cn')S.c[t.dataset.c].n=t.value;else if(f)S.c[t.dataset.c].i[t.dataset.i][f]=t.value;else if(t.id==='u')mk(t.value)};
+own=/[?&]editar/.test(location.search);R();
+</script></body></html>
